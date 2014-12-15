@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F05B3F1788C1D500C134E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F05B3E1788C1D500C134E3 /* UIKit.framework */; };
+		00F05B3F1788C1D500C134E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F05B3E1788C1D500C134E3 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		00F05B411788C1D500C134E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F05B401788C1D500C134E3 /* Foundation.framework */; };
 		00F05B431788C1D500C134E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F05B421788C1D500C134E3 /* CoreGraphics.framework */; };
 		00F05B491788C1D500C134E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F05B471788C1D500C134E3 /* InfoPlist.strings */; };
@@ -393,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
 				INFOPLIST_FILE = "Hello/Hello-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
 				INFOPLIST_FILE = "Hello/Hello-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +464,7 @@
 				00F05B781788C1D500C134E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F05B791788C1D500C134E3 /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +473,7 @@
 				00F05B7B1788C1D500C134E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
